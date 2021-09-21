@@ -1,0 +1,138 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.5.2 (Red Hat, Inc. Java 1.8.0_292)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.defaultLoad until apply took 2.7717ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: plugins took 25.079685ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: defsScala took 0.01069ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/spark/fuzzy/fuzzylogic/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/spark/fuzzy/fuzzylogic/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 3.215478 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                    Load.resolveProject(fuzzylogic-build) took 2.374068ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                  Load.loadTransitive: finalizeProject(Project(id fuzzylogic-build, base: /home/spark/fuzzy/fuzzylogic/project, plugins: List(<none>))) took 6.542227ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/spark/fuzzy/fuzzylogic/project, returning: (fuzzylogic-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: loadedProjectsRaw took 8.722906ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                Load.loadUnit: cleanEvalClasses took 0.030316ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.loadUnit(file:/home/spark/fuzzy/fuzzylogic/project/, ...) took 34.663165ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: load took 36.947885ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: resolveProjects took 0.352196ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: finalTransforms took 14.334628ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: config.delegates took 0.617901ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: Def.make(settings)... took 102.879107ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: structureIndex took 30.723167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.apply: mkStreams took 0.023739ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/spark/fuzzy/fuzzylogic/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 321.602788ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.005578ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/spark/fuzzy/fuzzylogic[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 0.324854ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mType error in expression[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.checkError(Eval.scala:487)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.compileAndLoad(Eval.scala:262)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.evalCommon(Eval.scala:223)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.evalDefinitions(Eval.scala:164)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.EvaluateConfigurations$.evaluateDefinitions(EvaluateConfigurations.scala:326)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.EvaluateConfigurations$.evaluateSbtFile(EvaluateConfigurations.scala:152)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadSettingsFile$1(Load.scala:1107)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$discoverProjects$2(Load.scala:1117)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.MapLike.getOrElse(MapLike.scala:131)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.MapLike.getOrElse$(MapLike.scala:129)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.AbstractMap.getOrElse(Map.scala:65)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.memoLoadSettingsFile$1(Load.scala:1116)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$discoverProjects$4(Load.scala:1124)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadFiles$1(Load.scala:1124)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.discoverProjects(Load.scala:1138)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.discover$1(Load.scala:890)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadTransitive(Load.scala:944)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadProjects$1(Load.scala:727)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$11(Load.scala:730)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1385)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:730)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1385)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadUnit(Load.scala:689)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:487)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:180)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.BuildLoader.apply(BuildLoader.scala:245)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadURI$1(Load.scala:549)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadAll(Load.scala:565)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadURI(Load.scala:495)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.load(Load.scala:474)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:243)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1385)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.apply(Load.scala:243)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.defaultLoad(Load.scala:56)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:959)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.doLoadProject(Main.scala:959)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:912)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:150)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:145)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.process(Command.scala:189)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$processCommand$5(MainLoop.scala:245)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.process$1(MainLoop.scala:245)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.processCommand(MainLoop.scala:278)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$5(MainLoop.scala:163)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.State$StateOpsImpl$.runCmd$1(State.scala:289)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.State$StateOpsImpl$.process$extension(State.scala:325)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$4(MainLoop.scala:163)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.next(MainLoop.scala:163)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.run(MainLoop.scala:144)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:119)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.io.Using.apply(Using.scala:27)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:112)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:66)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:51)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runLogged(MainLoop.scala:42)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.StandardMain$.runManaged(Main.scala:218)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.$anonfun$run$11(Main.scala:133)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withIn(Console.scala:230)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withIn(Terminal.scala:560)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withStreams$1(Terminal.scala:350)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withOut(Console.scala:167)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withOut$2(Terminal.scala:550)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withErr(Console.scala:196)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withOut(Terminal.scala:550)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:350)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.withStreams$1(Main.scala:87)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.run(Main.scala:121)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:56)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain.run(Main.scala:46)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.run(Launch.scala:111)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.launch(Launch.scala:120)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:20)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot$.runImpl(Boot.scala:56)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot$.main(Boot.scala:18)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot.main(Boot.scala)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.compiler.EvalException: Type error in expression[0m
+[0m[[0m[31merror[0m] [0m[0msbt.compiler.EvalException: Type error in expression[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
